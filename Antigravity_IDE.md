@@ -10,7 +10,7 @@ applications by providing project-aware coding assistance.
 Traditional IDEs focus on editing and debugging. Antigravity adds AI
 capabilities for understanding, generating, and refactoring code.
 
-## Use Cases in Agentic AI
+## Use Cases in Agentic AI 
 
 -   LangChain applications
 -   LangGraph workflows
