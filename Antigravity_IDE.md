@@ -53,4 +53,4 @@ capabilities for understanding, generating, and refactoring code.
 -   Antigravity is designed for AI-assisted software development.
 -   It is especially useful for agentic AI projects.
 -   It extends the capabilities of a traditional IDE with project-aware
-    AI features.
+    AI features. 
