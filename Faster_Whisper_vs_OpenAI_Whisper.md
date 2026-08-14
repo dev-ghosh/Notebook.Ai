@@ -11,7 +11,7 @@ Audio / Speech
 Whisper
       ↓
 Text
-```
+``` 
 
 Whisper supports speech-to-text, multilingual transcription, language
 identification, and speech translation.
