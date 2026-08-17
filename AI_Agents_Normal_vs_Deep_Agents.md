@@ -2,7 +2,7 @@
 
 ## What is an AI Agent?
 
-An **AI Agent** is a system that uses an AI model to understand a goal,
+An **AI Agent** is a system that uses an AI model to understand a goal, 
 decide what actions are needed, use tools when necessary, and produce a
 result.
 
