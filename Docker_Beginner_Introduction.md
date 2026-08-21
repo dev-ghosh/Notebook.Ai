@@ -4,7 +4,7 @@
 
 **Docker** is a platform that allows developers to package an application together with everything it needs to run, such as code, libraries, dependencies, and configuration, into a portable unit called a **container**.
 
-The main idea is:
+The main idea is: 
 
 > **Build once, run consistently anywhere.**
 
