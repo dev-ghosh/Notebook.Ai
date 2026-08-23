@@ -10,7 +10,7 @@ The main idea is:
 
 Docker helps solve the common problem where an application works on one computer but fails on another because of different versions or dependencies.
 
-## Why Do We Need Docker?
+## Why Do We Need Docker? 
 
 Without Docker:
 
