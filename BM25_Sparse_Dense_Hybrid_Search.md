@@ -12,7 +12,7 @@ retrieval approaches:
 
 ------------------------------------------------------------------------
 
-# 1. Sparse Search 
+# 1. Sparse Search  
 
 Sparse search represents text using keyword-based features rather than
 semantic embeddings.
