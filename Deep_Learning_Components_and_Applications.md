@@ -12,7 +12,7 @@ learn patterns from data.
     -   Machine Learning (ML)
         -   Deep Learning (DL)
 
-## Why Deep Learning?
+## Why Deep Learning? 
 
 Traditional ML often requires manual feature engineering. Deep Learning
 automatically learns useful features from raw data.
