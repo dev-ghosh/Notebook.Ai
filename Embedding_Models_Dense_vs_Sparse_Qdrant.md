@@ -6,12 +6,12 @@ An embedding model converts text into numerical vectors so computers can compare
 
 Example:
 
-```text
+```text 
 "What is LangGraph?"
       ↓
 Embedding Model
       ↓
-[0.12, -0.45, 0.89, ...] 
+[0.12, -0.45, 0.89, ...]  
 ```
 
 ---
