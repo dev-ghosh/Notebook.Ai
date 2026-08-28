@@ -2,7 +2,7 @@
 
 ## What is an Embedding Model?
 
-An embedding model converts text into numerical vectors so computers can compare meaning.
+An embedding model converts text into numerical vectors so computers can compare meaning. 
 
 Example:
 
