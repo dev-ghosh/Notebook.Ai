@@ -4,7 +4,7 @@ A clear breakdown of three terms that get used interchangeably but mean differen
 
 ---
 
-## 1. Generative AI (GenAI)
+## 1. Generative AI (GenAI) 
 
 **What it is:** AI that creates new content — text, images, code, audio, video — by predicting patterns learned from training data. It responds to a single prompt and produces an output. It does not plan, act, or use tools on its own.
 
