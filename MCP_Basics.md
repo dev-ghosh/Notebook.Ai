@@ -11,7 +11,7 @@ using a common protocol.
 Without MCP, every tool has a different API. MCP provides one standard
 way for AI applications to connect with many tools.
 
-## Where is MCP Used?
+## Where is MCP Used? 
 
 -   AI agents
 -   AI assistants
