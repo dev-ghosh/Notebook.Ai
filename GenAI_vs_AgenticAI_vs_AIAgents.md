@@ -10,7 +10,7 @@ A clear breakdown of three terms that get used interchangeably but mean differen
 
 **Core trait:** Input → Output. One-shot generation. No memory of goals, no autonomous decision-making.
 
-**Example:**
+**Example:** 
 - You ask ChatGPT/Claude: *"Write a Python function to reverse a string."*
 - It generates the code and stops. It doesn't run the code, test it, or fix errors unless you ask it to in a follow-up message.
 - Other examples: Gemini generating an image from a text prompt, GitHub Copilot autocompleting a line of code, a model summarizing a PDF.
