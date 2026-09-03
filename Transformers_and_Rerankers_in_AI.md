@@ -7,7 +7,7 @@ paper **"Attention Is All You Need" (2017)**. It processes all words in
 parallel using **self-attention**, making it the foundation of modern
 NLP.
 
-### Advantages
+### Advantages 
 
 -   Understands long-range dependencies
 -   Parallel processing
