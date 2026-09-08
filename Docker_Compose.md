@@ -9,7 +9,7 @@ Instead of running many `docker run` commands manually, you describe your applic
 Then you can start the whole application with:
 
 ```bash
-docker compose up
+docker compose up 
 ```
 
 ## Why Do We Need Docker Compose?
