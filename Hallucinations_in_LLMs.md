@@ -8,7 +8,7 @@ incorrect, fabricated, or unsupported while presenting it confidently.
 The model is not intentionally lying---it predicts the most likely next
 tokens based on patterns learned during training.
 
-## Why Do Hallucinations Happen?
+## Why Do Hallucinations Happen? 
 
 -   Limited knowledge
 -   Missing context
