@@ -7,7 +7,7 @@ understand the structure and most important content of a website. It
 acts as a guide for AI systems, especially on documentation-heavy
 websites.
 
-## Why is it Needed?
+## Why is it Needed? 
 
 Large websites often have: - Thousands of documentation pages - API
 references - Tutorials - Blogs - FAQs
