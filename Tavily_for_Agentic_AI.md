@@ -6,7 +6,7 @@ Tavily is a search and web data platform designed specifically for AI
 agents and LLM applications. It provides structured web information that
 is easier for AI systems to consume than traditional search results.
 
-## Why Use Tavily?
+## Why Use Tavily? 
 
 -   Live web search
 -   Website crawling
