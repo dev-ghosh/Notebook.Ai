@@ -6,7 +6,7 @@ FastAPI is a modern Python web framework used to build APIs (Application
 Programming Interfaces). It is fast, easy to learn, and widely used for
 AI backends.
 
-## Why use FastAPI?
+## Why use FastAPI?  
 
 -   High performance
 -   Easy syntax
