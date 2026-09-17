@@ -1,6 +1,6 @@
 # BM25 Search, Sparse Search, Dense Search & Hybrid Search
 
-## Overview
+## Overview 
 
 Modern Retrieval-Augmented Generation (RAG) systems retrieve relevant
 documents before sending them to an LLM. There are three common
