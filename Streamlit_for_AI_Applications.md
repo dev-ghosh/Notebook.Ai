@@ -6,7 +6,7 @@ Streamlit is an open-source Python framework used to build interactive
 web applications with only Python. It is widely used for AI, Machine
 Learning, and Data Science projects.
 
-## Why Use Streamlit?
+## Why Use Streamlit?  
 
 -   Easy to learn
 -   No HTML/CSS/JavaScript required
