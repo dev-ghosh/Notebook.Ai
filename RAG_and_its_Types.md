@@ -11,7 +11,7 @@ Instead of relying only on the knowledge stored during training, the LLM
 first retrieves relevant information from an external knowledge base and
 then uses that information to generate an accurate, grounded response.
 
-### Traditional RAG Workflow
+### Traditional RAG Workflow 
 
 ``` text
             User Question
