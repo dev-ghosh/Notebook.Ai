@@ -8,7 +8,7 @@ window includes:
 
 -   System prompt
 -   User prompt
--   Retrieved documents
+-   Retrieved documents 
 -   Conversation history
 -   Model output
 
