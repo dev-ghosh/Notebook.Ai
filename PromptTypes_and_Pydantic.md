@@ -9,7 +9,7 @@
 -   Produces one formatted string.
 -   Does not distinguish between system, user, or assistant roles.
 
-Example:
+Example:  
 
 ``` python
 from langchain_core.prompts import PromptTemplate
