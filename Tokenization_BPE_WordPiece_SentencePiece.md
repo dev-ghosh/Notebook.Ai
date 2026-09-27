@@ -6,7 +6,7 @@
 
 ```text
 Text
-  ↓
+  ↓ 
 Tokenizer
   ↓
 Tokens
