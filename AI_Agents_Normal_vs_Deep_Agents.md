@@ -11,7 +11,7 @@ Goal
  ↓
 AI Model
  ↓
-Reason / Decide
+Reason / Decide 
  ↓
 Use Tools
  ↓
