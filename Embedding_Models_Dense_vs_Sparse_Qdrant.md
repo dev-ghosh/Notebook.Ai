@@ -4,7 +4,7 @@
 
 An embedding model converts text into numerical vectors so computers can compare meaning. 
 
-Example:
+Example: 
 
 ```text  
 "What is LangGraph?"
