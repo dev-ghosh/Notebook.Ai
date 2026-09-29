@@ -11,7 +11,7 @@ AI backends.
 -   High performance
 -   Easy syntax
 -   Automatic API documentation
--   Request validation with Pydantic
+-   Request validation with Pydantic. 
 -   Great for AI, ML, and web applications
 
 ## What is an API?
