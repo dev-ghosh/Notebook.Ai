@@ -6,7 +6,7 @@
 
 The main idea is to make an AI system that can perform many tasks with a fast, direct style of reasoning instead of relying on the long, expensive reasoning process commonly associated with System 2-style reasoning models.
 
-A simple way to think about it:
+A simple way to think about it:  
 
 > **Traditional fast LLM:** Generate an answer directly.  
 > **Reasoning model:** Spend additional compute thinking through the problem before answering.  
