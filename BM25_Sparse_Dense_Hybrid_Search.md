@@ -11,7 +11,7 @@ retrieval approaches:
 3.  **Hybrid Search (Sparse + Dense)**
 
 ------------------------------------------------------------------------
-
+  
 # 1. Sparse Search  
 
 Sparse search represents text using keyword-based features rather than
