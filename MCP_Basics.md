@@ -6,7 +6,7 @@ Model Context Protocol (MCP) is an open standard that lets AI models
 communicate with external tools, applications, databases, and services
 using a common protocol.
 
-## Why is MCP Needed?
+## Why is MCP Needed?  
 
 Without MCP, every tool has a different API. MCP provides one standard
 way for AI applications to connect with many tools.
