@@ -6,7 +6,7 @@ Deep Learning is a subset of Machine Learning that uses Artificial
 Neural Networks (ANNs) with multiple hidden layers to automatically
 learn patterns from data.
 
-## AI Hierarchy
+## AI Hierarchy  
 
 -   Artificial Intelligence (AI) 
     -   Machine Learning (ML)
