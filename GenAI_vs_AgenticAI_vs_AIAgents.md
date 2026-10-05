@@ -2,7 +2,7 @@
 
 A clear breakdown of three terms that get used interchangeably but mean different things.
 
----
+--- 
 
 ## 1. Generative AI (GenAI)   
 
