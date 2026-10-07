@@ -7,7 +7,7 @@ converts speech into text.
 
 ### Common Uses
 
--   Voice assistants
+-   Voice assistants 
 -   Meeting transcription
 -   Podcast subtitles
 -   Video captions
