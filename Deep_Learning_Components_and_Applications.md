@@ -9,7 +9,7 @@ learn patterns from data.
 ## AI Hierarchy  
 
 -   Artificial Intelligence (AI) 
-    -   Machine Learning (ML)
+    -   Machine Learning (ML) 
         -   Deep Learning (DL) 
 
 ## Why Deep Learning? 
