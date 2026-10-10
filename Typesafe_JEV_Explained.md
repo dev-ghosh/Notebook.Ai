@@ -1,6 +1,6 @@
 # TypeSafe JEV — What It Is, What It Is Used For, and Example
 
-## 1. What is TypeSafe JEV?
+## 1. What is TypeSafe JEV? 
 
 **JEV** is a new AI model/system from **TypeSafe** designed around the idea of a **System 1 model**.
 
