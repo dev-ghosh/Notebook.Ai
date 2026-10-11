@@ -4,7 +4,7 @@
 
 Modern Retrieval-Augmented Generation (RAG) systems retrieve relevant
 documents before sending them to an LLM. There are three common
-retrieval approaches:
+retrieval approaches: 
 
 1.  **Sparse Search (BM25 / keyword search)**
 2.  **Dense Search (embedding/vector search)**
