@@ -6,7 +6,7 @@
 OpenAI. It converts speech/audio into text.
 
 ``` text
-Audio / Speech
+Audio / Speech 
       ↓
 Whisper
       ↓
