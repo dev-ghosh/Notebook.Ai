@@ -11,7 +11,7 @@ websites.
 
 Large websites often have: - Thousands of documentation pages - API
 references - Tutorials - Blogs - FAQs
-
+ 
 Instead of searching every page, an AI can read `llm.txt` first to find
 the most relevant sections.
 
