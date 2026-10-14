@@ -8,7 +8,7 @@ PyCharm, the configured interpreter runs your program.
 Example:
 
 ``` python
-print("Hello")
+print("Hello") 
 ```
 
 Responsibilities: - Execute Python code - Run scripts - Use installed
