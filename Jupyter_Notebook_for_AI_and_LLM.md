@@ -8,7 +8,7 @@ Unlike a normal Python file such as `main.py`, where a program is generally exec
 
 For example:
 
-```text
+```text. 
 Cell 1 → import libraries
 Cell 2 → load a model
 Cell 3 → test some code
