@@ -1,6 +1,6 @@
 # Model Context Protocol (MCP) - Beginner Notes
 
-## What is MCP?
+## What is MCP? 
 
 Model Context Protocol (MCP) is an open standard that lets AI models
 communicate with external tools, applications, databases, and services
