@@ -6,7 +6,7 @@
 
 ## 1. What each one is
 
-| | n8n | LangGraph |
+| | n8n | LangGraph | 
 |---|---|---|
 | Category | Workflow automation platform (visual + code) | Agent orchestration framework (library) |
 | You build with | A canvas of nodes | Code: state, nodes, edges |
