@@ -1,0 +1,32 @@
+name: daily
+
+on:
+  schedule:
+    - cron: "30 16 * * *" # 10:00 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Move the oldest queued file to the repo root
+        run: |
+          set -euo pipefail
+          f=$(find queue -maxdepth 1 -name '*.md' | sort | head -n 1)
+          if [ -z "$f" ]; then
+            echo "queue is empty"
+            exit 0
+          fi
+          name=$(basename "$f")
+          if [ -e "$name" ]; then verb=Update; else verb=Add; fi
+          git config user.name "dev-ghosh"
+          git config user.email "175207023+dev-ghosh@users.noreply.github.com"
+          mv -f "$f" "$name"
+          git add -A -- "$f" "$name"
+          git commit -m "$verb $name"
+          git push
