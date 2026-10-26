@@ -12,7 +12,7 @@ It helps developers write, explain, refactor, debug, and navigate code
 using natural language.
 
 ## Main Features
-
+ 
 -   AI Chat
 -   Code Generation
 -   AI Autocomplete
