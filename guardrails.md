@@ -4,7 +4,7 @@
 **Guardrails** are the rules and checks placed around an AI system so it behaves safely, stays on task and doesn't cause harm. The model generates; guardrails decide what is allowed in, what is allowed out, and what actions it may take. They are needed because LLMs are probabilistic: instructions alone can't guarantee behavior.
 
 ## 1. Types (by where they sit)
-| Layer | What it checks | Example |
+| Layer | What it checks | Example | 
 |---|---|---|
 | **Input** | The user's prompt before the model sees it | Block prompt injection, strip PII, reject off-topic requests |
 | **Model-level** | The model's own training and system prompt | Safety training, refusal behavior, system prompt rules |
