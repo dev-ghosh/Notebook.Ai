@@ -1,6 +1,6 @@
 # Function Calling vs ReAct Prompting
 
-## Introduction
+## Introduction 
 
 Both **Function Calling** and **ReAct (Reason + Act)** enable LLMs to
 use external tools, but they solve different problems.
