@@ -2,21 +2,42 @@ name: daily
 
 on:
   schedule:
-    - cron: "30 13 * * *" # 7:00 PM IST
+    # GitHub often starts scheduled runs 3-6 hours late, so trigger several
+    # times a day; the first one pushes a file and the rest skip.
+    - cron: "0 7 * * *"   # 12:30 PM IST
+    - cron: "0 10 * * *"  # 3:30 PM IST
+    - cron: "30 12 * * *" # 6:00 PM IST
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
 
 jobs:
   push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Move the oldest queued file to the repo root
         run: |
           set -euo pipefail
+          git config user.name "dev-ghosh"
+          git config user.email "175207023+dev-ghosh@users.noreply.github.com"
+
+          if [ "${GITHUB_EVENT_NAME:-}" = "schedule" ]; then
+            today=$(TZ=Asia/Kolkata date +%Y-%m-%d)
+            if git log --since="$today 00:00 +0530" --diff-filter=D --name-only --format= -- queue | grep -q .; then
+              echo "already pushed a file today"
+              exit 0
+            fi
+          fi
+
           f=$(find queue -maxdepth 1 -name '*.md' | sort | head -n 1)
           if [ -z "$f" ]; then
             echo "queue is empty"
@@ -24,9 +45,8 @@ jobs:
           fi
           name=$(basename "$f")
           if [ -e "$name" ]; then verb=Update; else verb=Add; fi
-          git config user.name "dev-ghosh"
-          git config user.email "175207023+dev-ghosh@users.noreply.github.com"
           mv -f "$f" "$name"
           git add -A -- "$f" "$name"
           git commit -m "$verb $name"
+          git pull --rebase
           git push
