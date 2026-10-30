@@ -2,12 +2,17 @@ name: daily
 
 on:
   schedule:
-    # GitHub often starts scheduled runs 3-6 hours late, so trigger several
-    # times a day; the first one pushes a file and the rest skip.
+    # Backup only: the PC task normally triggers this. GitHub starts
+    # scheduled runs ~6 hours late; whichever run comes first each IST day
+    # pushes a file and the rest skip.
     - cron: "0 7 * * *"   # 12:30 PM IST
     - cron: "0 10 * * *"  # 3:30 PM IST
-    - cron: "30 12 * * *" # 6:00 PM IST
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Push even if a file was already pushed today"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,12 +30,14 @@ jobs:
           fetch-depth: 0
 
       - name: Move the oldest queued file to the repo root
+        env:
+          FORCE: ${{ inputs.force }}
         run: |
           set -euo pipefail
           git config user.name "dev-ghosh"
           git config user.email "175207023+dev-ghosh@users.noreply.github.com"
 
-          if [ "${GITHUB_EVENT_NAME:-}" = "schedule" ]; then
+          if [ "${FORCE:-false}" != "true" ]; then
             today=$(TZ=Asia/Kolkata date +%Y-%m-%d)
             if git log --since="$today 00:00 +0530" --diff-filter=D --name-only --format= -- queue | grep -q .; then
               echo "already pushed a file today"
