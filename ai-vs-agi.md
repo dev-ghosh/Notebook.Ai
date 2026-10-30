@@ -8,7 +8,7 @@ Today's AI is impressive but still counted as **narrow or "broad-but-limited"**.
 
 ---
 
-## Simple analogy
+## Simple analogy  
 - **AI today** = a team of brilliant specialists. One is great at chess, another at translation, another at writing code.
 - **AGI** = one person who can learn to do all of those jobs, and pick up new ones too, the way a human can.
 
