@@ -2,10 +2,12 @@ name: daily
 
 on:
   schedule:
-    # Backup only: the PC task normally triggers this. GitHub starts
-    # scheduled runs ~6 hours late; whichever run comes first each IST day
-    # pushes a file and the rest skip.
-    - cron: "0 7 * * *"   # 12:30 PM IST
+    # Backup only: the PC task is the main trigger. GitHub starts scheduled
+    # runs 5-10 hours late, so these are set early. A scheduled run that
+    # starts between 00:00 and 12:59 IST is a leftover from the previous
+    # day and is skipped, so it cannot take the new day's slot.
+    - cron: "30 3 * * *"  # 9:00 AM IST
+    - cron: "30 6 * * *"  # 12:00 PM IST
     - cron: "0 10 * * *"  # 3:30 PM IST
   workflow_dispatch:
     inputs:
@@ -36,6 +38,11 @@ jobs:
           set -euo pipefail
           git config user.name "dev-ghosh"
           git config user.email "175207023+dev-ghosh@users.noreply.github.com"
+
+          if [ "${GITHUB_EVENT_NAME:-}" = "schedule" ] && [ "$(TZ=Asia/Kolkata date +%-H)" -lt 13 ]; then
+            echo "stale scheduled run (before 1 PM IST), skipping"
+            exit 0
+          fi
 
           if [ "${FORCE:-false}" != "true" ]; then
             today=$(TZ=Asia/Kolkata date +%Y-%m-%d)
