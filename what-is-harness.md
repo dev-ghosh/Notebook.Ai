@@ -7,7 +7,7 @@ Claude Code is a harness. So are Cursor's agent mode, GitHub Copilot's agent mod
 
 ---
 
-## Simple analogy
+## Simple analogy 
 A strong horse is powerful, but it goes nowhere useful without a **harness**: the straps and reins that let a person steer it and attach a cart.
 
 An AI model is the same. It is very capable at reasoning and writing, but on its own it can only take text in and give text out. The harness connects that power to the real world and keeps it under control.
