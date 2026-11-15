@@ -8,7 +8,7 @@ Short version: *a plain LLM gives advice; an LLM with a harness does the work.*
 
 ---
 
-## Example: "Fix the failing test"
+## Example: "Fix the failing test" 
 
 **Plain LLM**
 > You paste the error and the code into a chat.
