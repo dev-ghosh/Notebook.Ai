@@ -6,7 +6,7 @@ Cursor is an AI-powered code editor built on top of Visual Studio Code
 (VS Code). It combines a traditional IDE with an AI assistant that
 understands your project.
 
-## Why Use Cursor?
+## Why Use Cursor? 
 
 It helps developers write, explain, refactor, debug, and navigate code
 using natural language.
