@@ -8,7 +8,7 @@ It is **asynchronous**: you do not have to sit and watch. You hand off the job a
 ---
 
 ## Quick facts
-| | |
+| | | 
 |---|---|
 | Made by | Google (started in Google Labs) |
 | Type | Autonomous / asynchronous coding agent |
