@@ -5,7 +5,7 @@
 Antigravity is an AI-first IDE that helps developers build AI
 applications by providing project-aware coding assistance.
 
-## Why Use It?
+## Why Use It? 
 
 Traditional IDEs focus on editing and debugging. Antigravity adds AI
 capabilities for understanding, generating, and refactoring code.
