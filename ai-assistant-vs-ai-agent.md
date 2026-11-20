@@ -8,7 +8,7 @@ Short version: *an assistant helps you do the work; an agent does the work for y
 
 ---
 
-## Example 1: Booking a trip
+## Example 1: Booking a trip 
 **Assistant**
 > You: "Suggest flights from Delhi to Goa next Friday."
 > Assistant: lists a few options.
