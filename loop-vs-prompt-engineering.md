@@ -10,7 +10,7 @@ Short version: *prompt engineering improves a single message; loop engineering i
 
 ---
 
-## Simple analogy
+## Simple analogy 
 - **Prompt engineering** = giving a very clear task to a new colleague.
 - **Loop engineering** = setting up a system where that colleague works, **tests their own work**, fixes issues, and only comes back to you when it is genuinely done (or stuck).
 
