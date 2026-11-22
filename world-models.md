@@ -5,7 +5,7 @@
 
 ---
 
-## Simple analogy
+## Simple analogy 
 Imagine pushing a glass towards the edge of a table. Without touching it, you already know it will fall and shatter. That is your brain's **world model**: a mental simulation of how things behave.
 
 Most chatbots learned from text, so they know *about* the world through words. World models aim to learn the world directly from **video, images, sensors, and actions**.
