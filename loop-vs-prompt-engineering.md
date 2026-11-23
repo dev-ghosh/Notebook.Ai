@@ -2,7 +2,7 @@
 
 > **Assumption:** I read "loop" as *loop engineering*, the idea of designing the cycle that keeps an AI agent working and checking itself. This also covers the `/loop` command in Claude Code. If you meant something else, tell me and I will redo this file.
 
-## TL;DR
+## TL;DR 
 - **Prompt engineering** = writing **one good instruction** so the AI gives a good answer.
 - **Loop engineering** = building a **cycle** around the agent: do the work, **check the result**, decide the next step, repeat until done. You stop being the person who prompts every turn.
 
