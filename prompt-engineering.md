@@ -9,7 +9,7 @@ Think of it like giving directions to a very capable new colleague who knows a l
 
 ## Bad prompt vs. good prompt
 **Bad:**
-> Write about dogs.
+> Write about dogs. 
 
 **Good:**
 > Write a 150-word beginner-friendly paragraph about why dogs make good pets for families with young children. Use a warm, simple tone and end with one practical tip.
